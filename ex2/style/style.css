@@ -1,0 +1,58 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;
+}
+
+.content {
+    margin-left: 220px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+div .content {
+    background-image: url('ex2\images\raining-money-5.gif.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}

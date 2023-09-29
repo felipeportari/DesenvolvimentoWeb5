@@ -6,7 +6,7 @@
 }
 
 
-.barra-lateral {
+.side-bar {
   position: fixed;
   width: 20%;
   height: 100vh;
@@ -15,18 +15,17 @@
   list-style: none;
 }
 
-.barra-lateral li {
+.side-bar li {
   font-family: cursive;
   margin: 20px;
-  text-align: center;
   list-style: none;
 }
 
-.barra-lateral a{
+.side-bar a{
   text-decoration: none;  
 }
 
-.conteudo {
+.content {
   width: 80%;
   height: 100vh;
   float: right;
@@ -36,9 +35,7 @@
   align-items: center;
 }
 
-.conteudo iframe {
-  top: 0;
-  left: 0;
+.content iframe {
   width: 50%;
   height: 50%;
 }
